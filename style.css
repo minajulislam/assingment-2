@@ -188,4 +188,84 @@ h5{
         width: 100%;
     }
 }
+@media screen and (max-width:600px) {
+    header{
+        width: 100%;
+    }
+    ul{
+        display: none;
+    }
+
+    .first-section{
+        width: 100%;
+        flex-direction: column;
+    }
+    .img-camera{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .img-camera img{
+        width: 100%;
+    }
+    *body{
+        margin: 0px;
+    }
+    .header-title {
+        width: 100%;
+    }
+    .grid-container{
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+    .optional{
+        flex-direction: column;
+        width: 100%;
+    }
+    .last-button{
+        font-size: 11px;
+    }
+    .footer{
+        width: 100%;
+    }
+}
+@media screen and (max-width:760px) {
+    header{
+        width: 100%;
+    }
+    ul{
+        display: none;
+    }
+
+    .first-section{
+        width: 100%;
+        flex-direction: column;
+    }
+    .img-camera{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .img-camera img{
+        width: 100%;
+    }
+    *body{
+        margin: 0px;
+    }
+    .header-title {
+        width: 100%;
+    }
+    .grid-container{
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+    }
+    .optional{
+        flex-direction: column;
+        width: 100%;
+    }
+    .last-button{
+        font-size: 11px;
+    }
+    .footer{
+        width: 100%;
+    }
+}
 
